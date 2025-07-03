@@ -1,0 +1,87 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fbd17c; /* optional for contrast */
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    height: auto;
+    width: 400px;
+    background-color: rgb(17, 48, 80);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* Input row styling */
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* Input boxes */
+#height,
+#weight {
+    width: 160px;
+    height: 30px;
+    padding: 4px 8px;
+    border-radius: 6px;
+
+}
+
+/* Calculate button wrapper */
+.Cal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Button styling */
+button {
+    width: 160px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #212121;
+}
+
+button:hover {
+    background-color: #212121;
+    color: white;
+}
+
+/* BMI result display */
+#results {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Weight guide styling */
+#weight-guide {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+#weight-guide h3 {
+    margin-bottom: 10px;
+}
