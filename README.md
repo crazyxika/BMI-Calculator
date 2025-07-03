@@ -6,7 +6,7 @@ A simple and responsive **BMI (Body Mass Index) Calculator** built using **HTML*
 
 ## 📸 Screenshot
 
-[BMI Calculator Screenshot](Screenshot\ \(215\).png)
+![BMI Calculator Screenshot](Screenshot\ \(215\).png)
 
 ---
 
